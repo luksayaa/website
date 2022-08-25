@@ -1,32 +1,24 @@
-.body
+body
 {
-    background-color: lightpink;
+    background-image: url("bi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lightslategray;
 }
-.name
+h1
 {
+    color: darkblue;
     text-align: center;
-    color: black;
-    justify-content: center;
 }
-.t-shirts
+table,th,tr{
+     border: 1px solid;
+     border-collapse: collapse;
+}
+div
 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    width: 70px;
+    border: 5px solid black;
+    padding: 5px;
+    margin: 5px;
+    box-align: 100px;
 }
-.h4
-{
-    color: black;
-}
-.end
-{
-    display: flex;
-    background-color: black;
-}
-.socialmedia
-{
- display: flex;
- background-color: rgb(205, 224, 255);
- margin-left: 1000px;
-}
-    
